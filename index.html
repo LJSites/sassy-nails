@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- nails archetype · generated from live Google Places data for Sassy Nails -->
+<!-- nails · plum-elegance · hero-layout 1 · svc-layout 0 · generated from live Google Places data for Sassy Nails -->
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sassy Nails — Nail Salon, Anaheim</title>
@@ -18,27 +18,32 @@ header{padding:16px 0;border-bottom:1px solid var(--line);position:sticky;top:0;
 header .row{display:flex;align-items:center;justify-content:space-between;gap:16px}
 .brand{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:21px;letter-spacing:-.01em;color:var(--ink)}
 nav a{margin-left:20px;color:var(--mut);font-size:13.5px;font-weight:500}nav a:hover{color:var(--acc);text-decoration:none}
-.callbtn{display:inline-flex;align-items:center;gap:7px;background:var(--acc);color:#141110;padding:9px 16px;border-radius:8px;font-weight:600;font-size:13.5px;margin-left:20px}
-.callbtn:hover{filter:brightness(.92);text-decoration:none;color:#141110}
+.callbtn{display:inline-flex;align-items:center;gap:7px;background:var(--acc);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;font-size:13.5px;margin-left:20px}
+.callbtn:hover{filter:brightness(.92);text-decoration:none;color:#fff}
 .hero{padding:72px 0 60px}
-.hero .grid{display:grid;grid-template-columns:1fr;gap:46px;align-items:center}
+.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}
 .kicker{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:18px}
 h1{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:clamp(40px,6.2vw,72px);line-height:1.02;letter-spacing:-.025em;margin-bottom:20px}
 .lede{font-size:18px;color:var(--mut);max-width:480px;margin-bottom:28px}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:8px;font-weight:600;font-size:14px;border:1.5px solid var(--ink);color:var(--ink);background:transparent}
 .btn:hover{background:var(--ink);color:var(--bg);text-decoration:none}
-.btn.solid{background:var(--acc);border-color:var(--acc);color:#141110}
-.btn.solid:hover{filter:brightness(.92);color:#141110}
-.hero-img{width:100%;aspect-ratio:16/8;object-fit:cover;border-radius:16px;;margin-top:36px}
+.btn.solid{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.solid:hover{filter:brightness(.92);color:#fff}
+.hero-img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:16px;order:-1;}
 .section{padding:62px 0;border-top:1px solid var(--line)}
 .kick{font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin-bottom:8px}
 h2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:34px;letter-spacing:-.02em;margin-bottom:8px}
-.about-p{font-size:18px;color:var(--mut);max-width:640px;margin-top:8px}
+
 .svcs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
-.svc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.svcs .svc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.svc-rows{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.svc-rows .svc-row{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px 26px;display:flex;align-items:baseline;gap:14px}
+.svc-list{margin-top:30px;border-top:1px solid var(--line)}
+.svc-list .svc-line{display:flex;align-items:baseline;gap:18px;padding:22px 0;border-bottom:1px solid var(--line)}
 .snum{font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--acc);font-weight:600;letter-spacing:.08em}
-.svc h3{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:18px;margin-top:10px;letter-spacing:-.01em}
+.svcs .svc h3,.svc-rows .svc-row h3,.svc-list .svc-line h3{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:19px;margin-top:10px;letter-spacing:-.01em}
+
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}
 .gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
 .quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:28px}
@@ -54,7 +59,7 @@ h2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:34px;letter-
 footer{background:var(--ink);color:var(--bg);padding:32px 0 46px;border-top:1px solid var(--line)}
 footer .fbrand{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:18px}
 footer .credit{margin-top:10px;font-size:13px;opacity:.82}footer a{color:var(--acc)}
-@media(max-width:800px){.hero .grid{grid-template-columns:1fr}.hero-img{order:0;aspect-ratio:16/10}.svcs{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.quotes,.visit{grid-template-columns:1fr}nav{display:none}.visit iframe{min-height:280px}}
+@media(max-width:800px){.hero .grid{grid-template-columns:1fr}.hero-img{order:0;aspect-ratio:16/10}.svcs{grid-template-columns:1fr 1fr}.svc-rows{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.quotes,.visit{grid-template-columns:1fr}nav{display:none}.visit iframe{min-height:280px}}
 </style></head><body>
 <header><div class="wrap row">
   <div class="brand">Sassy Nails</div>
@@ -64,7 +69,7 @@ footer .credit{margin-top:10px;font-size:13px;opacity:.82}footer a{color:var(--a
 <section class="hero"><div class="wrap"><div class="grid">
   <div>
     <span class="kicker">Nails, done with care</span>
-    <h1 class="disp">Polished, every time.</h1>
+    <h1 class="disp">Quietly perfect.<br>Every set.</h1>
     <p class="lede">A neighborhood nail salon that's earned its regulars the honest way — by being good at what it does. Here's everything you need to find us, reach us, and stop by.</p>
     <div class="cta"><a class="btn solid" href="tel:+17146037276">Call (714) 603-7276</a><a class="btn" href="#visit">Hours &amp; location</a></div>
   </div>
